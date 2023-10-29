@@ -1,0 +1,314 @@
+/* body{
+    background-color: #F6F6F6;
+    font-family: 'Lato', sans-serif;
+} */
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 20px;
+    align-items: center;
+    border: 1px solid black;
+    margin: -8px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.header i{
+    font-size: 25px;
+    color: #4F2EE8;
+}
+.right-corner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.right-corner a{
+    background-color: #4F2EE8;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+}
+.container h1{
+    font-size: 3rem;
+}
+.container h1 span{
+    color: #4F2EE8;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.list{
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 25%;
+    height: 64vh;
+    overflow-y: scroll;
+}
+.list li{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.list li:hover{
+    color:#4F2EE8;
+}
+#books{
+    width: 70%;
+}
+li{
+    cursor: pointer;
+}
+#books .band h4{
+    text-transform: uppercase;
+    color: gray;
+}
+.band{
+    margin-top: 80px;
+    width: 100%;
+}
+.Img-Box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.img-div{
+    margin-top: 10px;
+}
+.Img-Box img{
+    width: 160px;
+    height: 200px;
+    cursor: pointer;
+}
+.Img-Box .img-div .Title{
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Img-Box .img-div .Author{
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+} 
+.Img-Box .img-div .Author{
+    color: gray;
+    font-style: italic;
+}
+.Span-Div{
+    width: 150px;
+}
+ul{
+    list-style: none;
+}
+
+#modal{
+    border: none;
+    outline: none;
+}
+.flex-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+#Image-cont{
+    width: 30%;
+}
+#Image-cont img{
+    width: 100%;
+}
+/* 4F2EE8 */
+#buylist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#buylist i{
+    font-size: 5rem;
+}
+#buylist a{
+    color: #4F2EE8;
+    font-size: 10px;
+}
+#buylist a img{
+    width: 70px;
+}
+#modal{
+    border-radius: 10px;
+}
+form .cart{
+    background-color:#4F2EE8 ;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form .btn-div{
+    display: flex;
+    justify-content: center;
+}
+form .close{
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content:flex-end;
+}
+form .close button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+form .close button i{
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+/* Singup page */
+.Sign-Cont{
+    /* background-color: #4F2EE8; */
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#SignUpform{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    gap: 1rem;
+    border-radius: 10px;
+}
+#SignUpform input, button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+#SignUpform button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+#SignUpform input{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.buttons a{
+    cursor: pointer;
+    color: #4F2EE8;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+}
+#toggleButton{
+    cursor: pointer;
+    color: #4F2EE8;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+body:not(#header){
+    background-color: #F6F6F6;
+    color: #000000;
+}
+.dark-mode:not(#header) {
+    background-color:rgb(30, 28, 28);
+    color: rgb(113, 109, 109);
+}
+
+/* Media Query */
+@media (max-width:950px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0rem;
+    }
+    .list{
+        width: 100%;
+    }
+    #books{
+        width: 100%;
+    }
+    .Img-Box{
+        gap: 0.5rem;
+    }
+    .Img-Box .img-div{
+        width: 100%;
+    }
+    .Img-Box img{
+        width: 100%;
+        height: 300px;
+    }
+    .flex-cont{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .flex-cont h1{
+        font-size: 20px;
+    }
+    #Image-cont{
+        width: 50%;
+    }
+    #Image-cont img{
+        width: 100%;
+    }
+    #buylist a img{
+        width: 30px;
+    }
+}

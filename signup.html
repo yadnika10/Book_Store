@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body style="background-color: #4F2EE8;">
+    <div class="maincont">
+        <div class="header">
+            <div class="logo">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h1>Book</h1> 
+            </div>
+            <div class="right-corner">
+                <!-- <button id="toggleButton">Toggle Mode</button> -->
+                <a href="signup.html">Sign up</a>
+            </div>
+        </div>
+
+        <div class="Sign-Cont">
+            <form id="SignUpform">
+                <div class="close">
+                    <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">SIGN UP</button>
+                <div class="buttons">
+                    <a href="signup.html">Sign Up</a>
+                    <a href="loginform.html" id="signIn">Sign In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="form.js"></script>
+</body>
+</html>

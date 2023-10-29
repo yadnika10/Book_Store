@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Lato&family=Montserrat:wght@400;600&family=Open+Sans:wght@500;600&family=Orbitron:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&family=Tilt+Neon&display=swap');
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h1>Book</h1> 
+        </div>
+        <div class="right-corner">
+            <button id="toggleButton">Change Mode</button>
+            <a href="signup.html">Sign up</a>
+        </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="list">
+            <ul>
+                <li id="All">ALL CATEGORIES</li>
+                <li id="Mis">Adivice how-to and Miscellaneous</li>
+                <li id="AudioF">Audio Fiction</li>
+                <li id="AudioNon">Audio Nonfiction</li>		
+                <li id="BusiBook">Business Books</li>
+                <li id="ChildG">Childrens Middle Grade Hardcover</li>
+                <li id="E-bookFic">Combined Print and E-Book Fiction</li>
+                <li id="E-bookNonFic">Combined Print and E-Book Nonfiction</li>
+                <li id="GManga">Graphic Books and Manga</li>
+                <li id="HFic">Hardcover Fiction</li>
+                <li id="HNFic">Hardcover Nonfiction</li>
+                <li id="MMM">Mass Market Monthly</li>
+                <li id="paper_back">Middle Grade Paperback Monthly</li>
+                <li id="paper_backNfic">Paperback Nonfiction</li>
+                <li id="Pic_books">Picture	Books</li>
+                <li id="S_books">Series Books</li>
+                <li id="Trade_fic">Trade Fiction Paperback</li>
+                <li id="YoungAdult">Young Adult Hardcover</li>
+                <li id="YounAdultPap">Young Adult Paperback Monthly</li>
+            </ul>
+        </div>
+        <div id="books"></div>
+        <dialog id="modal">
+            <form method="dialog">
+                <div class="close">
+                    <button><i class="fa-solid fa-circle-xmark"></i></button>
+                </div>
+                <div class="flex-cont">
+                    <div id="Image-cont"></div>
+                    <div id="text">
+                        <h1 id="title"></h1>
+                        <span id="auth"></span>
+                        <ul id="buylist"></ul>
+                    </div>
+                </div>
+                <div class="btn-div">
+                    <button class="cart">ADD TO SHOPPING LIST</button>
+                </div>
+            </form>
+        </dialog>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
